@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla Inc.</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="header">
+    <img class="header__image" alt="tesla-logo" src="images/Tesla_logo.png"/>
+    <nav class="header__menu">
+        <a class="menu__link" href="#">Model S</a>
+        <a class="menu__link" href="#">Model X</a>
+        <a class="menu__link" href="#">Model 3</a>
+        <a class="menu__link" href="#">Roadster</a>
+        <a class="menu__link" href="#">Energy</a>
+    </nav>
+    <nav class="header__menu--side">
+        <a class="menu__link--side" href="#">Магазин</a>
+        <a class="menu__link--side" href="#">Войти</a>
+        <a class="menu__link--side" href="#"><img src="images/menu.png" alt="menu" class="menu__image"></a>
+        <a class="menu__link--side-mobile" href="#"><img src="images/menu.png" alt="menu" class="menu__image"></a>
+    </nav>
+</header>
+
+<section class="section-main">
+
+    <h1 class="section-main__title">Model S</h1>
+    <p class="section-main__text">Добро пожаловать в будущее!</p>
+
+    <img class="section-main__image" alt="Car Tesla full" src="images/Tesla__main.png"/>
+    <div class="specifications">
+
+        <div class="specifications__block">
+            <img src="images/Speed.svg" alt="Speed" class="specifications__image--speed" draggable=false>
+            <div class="specifications__integer">2,7 <span class="specifications__measure">сек</span>
+            </div>
+            <div class="specifications__description">0-100 км/час</div>
+        </div>
+
+        <div class="specifications__block">
+            <img src="images/Road_icon.svg" alt="Road icon" class="specifications__image--Road_icon">
+            <div class="specifications__integer">632 <span class="specifications__measure">км</span></div>
+            <div class="specifications__description">запас хода</div>
+        </div>
+
+        <div class="specifications__button-test">
+            <button class="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" class="specifications__image--steering" viewBox="0 0 22 22">
+                    <style>
+                        .steering_path { fill: black; }
+                    </style>
+                    <path d="M11 0C4.958 0 0 4.958 0 11s4.958 11 11 11 11-4.958 11-11S17.042 0 11 0zm0 19.379c-4.62 0-8.379-3.759-8.379-8.379 0-4.62 3.759-8.379 8.379-8.379 4.62 0 8.379 3.759 8.379 8.379 0 4.62-3.759 8.379-8.379 8.379z" class="steering_path"></path>
+                    <path d="M12.29 9.066a1.289 1.289 0 1 1-2.579 0 1.289 1.289 0 0 1 2.578 0z" class="steering_path"></path>
+                    <path d="M11 11.645a2.573 2.573 0 0 1-2.44-1.781c-1.705.185-3.296.543-4.646 1.062 0 .025-.004.049-.004.074 0 .745.117 1.463.331 2.138 1.055-.55 2.087-.849 2.892-.849.673 0 1.19.19 1.58.582.9.905 1.003 2.74 1.005 5.097.416.076.844.122 1.282.122.438 0 .866-.046 1.283-.122.001-2.354.104-4.191 1.005-5.097.39-.391.906-.582 1.58-.582.793 0 1.828.287 2.893.845.213-.674.329-1.39.329-2.134 0-.024-.004-.048-.004-.072-1.463-.565-3.081-.893-4.647-1.065A2.573 2.573 0 0 1 11 11.645z" class="steering_path"></path>
+                </svg>
+                ТЕСТ ДРАЙВ
+            </button>
+        </div>
+
+        <div class="specifications__button-order">
+            <button class="button button--white">ЗАКАЗАТЬ</button>
+        </div>
+    </div>
+    <div class="scroll-bottom"><a href="#middle"><img src="images/next_page.svg" class="scroll-bottom__arrow"/></a>
+    </div>
+</section>
+
+<section class="section-middle">
+    <h2 class="section-middle__title-primary">Model S</h2>
+    <div class="section-middle__mobile"></div>
+    <div class="section-middle__block" id="middle">
+        <h3 class="section-middle__title-secondary">Будущее вождения</h3>
+
+        <p class="section-middle__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до
+            пяти
+            взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая
+            инженерия
+            создает динамику звука, сравнимую с студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер
+            для
+            каждого пассажира.
+        </p>
+
+        <div class="section-middle__specifications">
+            <img src="images/screen.svg" alt="Screen" class="specifications__image--screen" draggable=false>
+            <div class="specifications__integer">17<span class="specifications__measure">дюймов</span>
+            </div>
+            <div class="specifications__description">Большой дисплей</div>
+        </div>
+
+        <div class="section-middle__specifications">
+            <img src="images/wifi.svg" alt="wifi" class="specifications__image--wifi" draggable=false>
+            <div class="specifications__measure">Беспроводное обновление ПО
+            </div>
+            <div class="specifications__description">Повышенная функциональность</div>
+        </div>
+
+        <div class="section-middle__specifications">
+            <img src="images/bag.svg" alt="bag" class="specifications__image--bag" draggable=false>
+            <div class="specifications__integer">894<span class="specifications__measure"> литра</span>
+            </div>
+            <div class="specifications__description">Объем грузового пространства</div>
+        </div>
+
+        <div class="section-middle__buttons">
+            <button class="button button--transparent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" class="svg-knowmore" viewBox="0 0 22 22">
+                    <style>
+                        #knowmore-circle { stroke: white; stroke-width: 2px; } #knowmore-path { fill: white; }
+                    </style>
+                    <circle id="knowmore-circle" cx="11" cy="11" r="10"></circle>
+                    <path id="knowmore-path" d="M10.995 8.031c.754 0 1.26-.494 1.26-1.17 0-.624-.506-1.092-1.26-1.092S9.734 6.263 9.734 6.9s.507 1.131 1.26 1.131zM9.98 16h2.028V9.006H9.98V16z"></path>
+                </svg>
+                УЗНАТЬ БОЛЬШЕ
+            </button>
+            <button class="button button--red">ЗАКАЗАТЬ</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section-last">
+
+    <div class="section-last__block">
+        <h3 class="section-last__title">Самый безопасный
+            автомобиль в мире</h3>
+        <h3 class="section-last__title--mobile">Самый безопасный
+            автомобиль в мире</h3>
+        <p class="section-last__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо
+            испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров — от несчастных случаев на
+            переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+
+        <h3 class="section-last__title">Оценка защиты: </h3>
+        <div class="section-last__specifications-wrapper">
+            <div class="section-last__specifications--text">Спереди <img src="images/stars.svg" alt="star"
+                                                                         class="section-last__stars"></div>
+
+            <div class="section-last__specifications--text">Сбоку <img src="images/stars.svg" alt="star"
+                                                                       class="section-last__stars"></div>
+
+            <div class="section-last__specifications--text">Сбоку <span
+                    class="section-last__specifications--additional">(стойка)</span> <img src="images/stars.svg"
+                                                                                          alt="star"
+                                                                                          class="section-last__stars">
+            </div>
+
+            <div class="section-last__specifications--text">Водитель <img src="images/stars.svg" alt="star"
+                                                                          class="section-last__stars"></div>
+
+            <div class="section-last__specifications--text">Пассажир <img src="images/stars.svg" alt="star"
+                                                                          class="section-last__stars"></div>
+        </div>
+
+        <div class="section-last__security">
+            <img src="images/shield.svg" alt="shield"
+                 class="section-last__shield">
+            <div class="section-last__security--main">5 звезд</div>
+            <div class="section-last__security--additional">безопасности</div>
+        </div>
+
+        <div class="section-last__buttons">
+            <button class="button button--transparent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" class="svg-knowmore" viewBox="0 0 22 22">
+                    <style>
+                        #knowmore-circle { stroke: white; stroke-width: 2px; } #knowmore-path { fill: white; }
+                    </style>
+                    <circle id="knowmore-circle" cx="11" cy="11" r="10"></circle>
+                    <path id="knowmore-path" d="M10.995 8.031c.754 0 1.26-.494 1.26-1.17 0-.624-.506-1.092-1.26-1.092S9.734 6.263 9.734 6.9s.507 1.131 1.26 1.131zM9.98 16h2.028V9.006H9.98V16z"></path>
+                </svg>
+                УЗНАТЬ БОЛЬШЕ
+            </button>
+            <button class="button button--red">ЗАКАЗАТЬ</button>
+        </div>
+    </div>
+
+    <div class="section-last__wrapper">
+        <img class="section-last__car-frame" alt="Car frame" src="images/section-last__car-text.png"/>
+    </div>
+</section>
+
+</body>
+
+</html>
